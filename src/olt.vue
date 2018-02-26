@@ -18,9 +18,6 @@ export default {
     };
   },
   mounted() {
-    // Map views always need a projection.  Here we just want to map image
-    // coordinates directly to map coordinates, so we create a projection that uses
-    // the image extent in pixels.
     const extent = [0, 0, 3500, 2483];
     const projection = new Projection({
       code: "xkcd-image",
