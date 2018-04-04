@@ -1,2 +1,2 @@
 # mh
-mh use vue
+mh use vue&webpack
